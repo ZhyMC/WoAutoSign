@@ -2,7 +2,7 @@
 Zhy的福建联通V网自动签到Nodejs脚本
 <br/>
 使用方法:<br/>
-⓪cd ~
+⓪cd ~<br/>
 ①git clone https://github.com/ZhyMC/WoAutoSign.git<br/>
 ②cd WoAutoSign
 ③nano ZhyAutoSign.js<br/>
