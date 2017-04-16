@@ -10,10 +10,10 @@ Zhy的福建联通V网自动签到Nodejs脚本
 ⑤填写Wo账号密码<br/>
 ⑥保存<br/>
 ⑦crontab -e<br/>
-<pre>
-⑧填入 0 */6 * * * date >>~/zhyautosign.log && node ~/WoAutoSign/ZhyAutoSign.js >> ~/zhyautosign.log &&  echo "\n">>~/zhyautosign.log
+
+⑧填入 0 *<b>/</b>6 * * * date >>~/zhyautosign.log && node ~/WoAutoSign/ZhyAutoSign.js >> ~/zhyautosign.log &&  echo "\n">>~/zhyautosign.log
   #每6小时自动执行一次自动签到脚本,并自动保存日志至~/zhyautosign.log<br/>
-  </pre>
+  
 ⑨保存<br/>
 <br/>
 随便找个Linux服务器挂一挂,一个月几百M流量自动入账户,甚至可以挂在你的树莓派服务器上,一天一次访问,超级省资源,所以也可以让你的朋友帮忙代挂.
