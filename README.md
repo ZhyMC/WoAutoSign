@@ -10,7 +10,7 @@ Zhy的福建联通V网自动签到Nodejs脚本
 ⑤填写Wo账号密码<br/>
 ⑥保存<br/>
 ⑦crontab -e<br/>
-⑧填入 0 *%2f6 * * * date >>~/zhyautosign.log && node ~/WoAutoSign/ZhyAutoSign.js >> ~/zhyautosign.log &&  echo "\n">>~/zhyautosign.log
+⑧填入 0 *&#x2F;6 * * * date >>~/zhyautosign.log && node ~/WoAutoSign/ZhyAutoSign.js >> ~/zhyautosign.log &&  echo "\n">>~/zhyautosign.log
   #每6小时自动执行一次自动签到脚本,并自动保存日志至~/zhyautosign.log<br/>
 ⑨保存<br/>
 <br/>
