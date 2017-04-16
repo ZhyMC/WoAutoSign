@@ -8,7 +8,7 @@ Zhy的福建联通V网自动签到Nodejs脚本
 ③cd WoAutoSign<br/>
 ④nano ZhyAutoSign.js<br/>
 ⑤填写Wo账号密码<br/>
-⑥保存
+⑥保存<br/>
 ⑦crontab -e<br/>
 ⑧填入 0 1 * * * node ~/WoAutoSign/ZhyAutoSign.js  #每天凌晨1点执行一次自动签到脚本<br/>
 ⑨保存<br/>
