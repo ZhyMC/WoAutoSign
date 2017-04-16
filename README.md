@@ -4,7 +4,7 @@ Zhy的福建联通V网自动签到Nodejs脚本
 使用方法:<br/>
 ⓪cd ~<br/>
 ①git clone https://github.com/ZhyMC/WoAutoSign.git<br/>
-②npm install zhynet //安装支持库
+②npm install zhynet //安装支持库<br/>
 ③cd WoAutoSign<br/>
 ④nano ZhyAutoSign.js<br/>
 ⑤填写Wo账号密码<br/>
