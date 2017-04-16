@@ -1,5 +1,5 @@
 var crypto=require("crypto");
-var net=require("./net/net.js");
+var net=require("zhynet");
 var Net=new net();
 var accountid="";
 var token="";
