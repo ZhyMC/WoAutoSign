@@ -51,12 +51,12 @@ Net.post("http://220.250.20.68:7001/FlowAssistantAuthServlet",encode(xmlmsg))
 	token=net.substr(data,"<Token>","</Token>");
 	Nnet.setCookie("accountId",accountid);
 	Nnet.setCookie("accessToken",token);
-	return Nnet.post("http://ll.fj10010.com/app/sign!signQuery.action","");//这里是Promise语法
+	return Nnet.post("https://ll.fj10010.com/app/sign!signQuery.action","");//这里是Promise语法
 	
 })
 .then((res)=>{
 	//console.log(Nnet.getCookies());  //此时已经获得Cookie,我的Net类能够自动储存它们,继续POST就行
-	return Nnet.post("http://ll.fj10010.com/app/sign!sign.action","")//最后一步,签到.这里是Promise语法,直接返回以便于在下个then获得POST结果
+	return Nnet.post("https://ll.fj10010.com/app/sign!sign.action","")//最后一步,签到.这里是Promise语法,直接返回以便于在下个then获得POST结果
 	}
 	)
 .then((res)=>{
